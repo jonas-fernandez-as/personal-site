@@ -1,0 +1,58 @@
+::-webkit-scrollbar {
+ display: none;
+}
+
+.bg-img{
+ position: fixed;
+ width: 100vw;
+ height: 100vh;
+ object-fit:cover;
+ z-index: -1;
+ filter:opacity(.98) grayscale(1) ;
+
+}
+
+main{
+ display: flex;
+ background-color:transparent;
+ text-shadow: 3px 3px 3px #000;
+ color:tomato;
+ width:100vw;
+ height: 100vh;
+ margin:0;
+ padding:0;
+ 
+}
+
+.visible-text{
+ display: inline;
+}
+.hide-text{
+ display: inline;
+}
+.h1-container{
+ display: inline-flex;
+ flex-direction:column;
+}
+.h1-container div{
+ padding-top: 3rem;
+ margin-top: 1rem;
+ margin-left: 7rem;
+ display: inline-block;
+ font-size: 3em;
+ letter-spacing: 2rem;
+}
+.h1-container a{
+ text-decoration: none;
+ color:moccasin
+}
+
+.label-welcome{
+display: inline-block;
+}
+.label-my-name{
+ display: inline-block;
+}
+.label-is-jonas{
+ display: inline-block;
+}

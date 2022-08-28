@@ -1,0 +1,52 @@
+h2{
+ margin-top:4rem ;
+ font-size:calc(2rem + 1vh);
+ letter-spacing: 0.5rem;
+}
+h3{
+ margin:1rem
+}
+.figure-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ align-content: center;
+ justify-content: center;
+}
+.fig{
+ width: 70%;
+ border-radius: .25rem;
+ padding: 0 auto;
+ border: 1px solid #eee;
+ background-color: #eee;
+ text-align: center;
+}
+
+.fig-img{
+ width: 100%;
+}
+
+.fig:hover{
+ box-shadow: #fff 10px 10px 200px ;
+ transition: all 0.5s;
+}
+
+.tohome{
+ display:block;
+ font-weight: bold;
+ font-size: calc(1rem + .5vw);
+ margin-left:50;
+ padding:2rem 5rem
+
+}
+
+.tohome:hover{
+ color:#ccc !important
+}
+
+
+.arrow{
+ font-size: 2rem;
+ margin: 1rem 50% 2rem 50%
+}
+ 

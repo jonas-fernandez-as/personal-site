@@ -1,6 +1,6 @@
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
  display: none;
-}
+}*/
 
 .bg-img{
  position: fixed;
@@ -8,21 +8,22 @@
  height: 100vh;
  object-fit:cover;
  z-index: -1;
- filter:opacity(.98) grayscale(1) ;
+ filter:opacity(.5) grayscale(1) ;
 
 }
 
 main{
+ 
  display: flex;
  background-color:transparent;
- text-shadow: 3px 3px 3px #000;
- color:tomato;
+ font-weight: bold;
+ color:#fff;
+ text-shadow: 1px 1px 1px #222;
  width:100vw;
- height: 100vh;
- margin:0;
- padding:0;
+ height:100vh;
  
 }
+
 
 .visible-text{
  display: inline;
@@ -30,29 +31,57 @@ main{
 .hide-text{
  display: inline;
 }
+h1{
+ margin:0 auto
+}
 .h1-container{
+ margin:auto;
  display: inline-flex;
  flex-direction:column;
 }
 .h1-container div{
+ margin: auto;
  padding-top: 3rem;
  margin-top: 1rem;
- margin-left: 7rem;
- display: inline-block;
- font-size: 3em;
- letter-spacing: 2rem;
+ display: inline-block; 
+ letter-spacing: 1rem;
+ font-weight:900;
 }
 .h1-container a{
+ 
  text-decoration: none;
  color:moccasin
 }
 
-.label-welcome{
-display: inline-block;
+.label-Welcome{
+font-size:calc(5rem + 1vw);
+display: inline-flex;
 }
 .label-my-name{
- display: inline-block;
+ font-size:calc(5rem + 1vw);
+ 
+ display: inline-flex;
 }
 .label-is-jonas{
- display: inline-block;
+ font-size:calc(5rem + 1vw);
+ display: inline-flex;
 }
+
+.label-Welcome a{
+ font-size:10vw;
+ }
+ .label-my-name a{
+  font-size:10vw;
+ }
+ .label-is-jonas a{
+  font-size:10vw;
+ }
+ .label-Welcome p{
+  font-size:10vw;
+  }
+  .label-my-name p{
+   font-size:10vw;
+  }
+  .label-is-jonas p{
+   font-size:10vw
+  }

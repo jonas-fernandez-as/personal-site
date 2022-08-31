@@ -34,7 +34,7 @@ export default function About() {
         child
       </p>
       <p>
-        In the margin of this things, when i growed i leaveed my studys on the
+        In the margin of this things, when i growed i leaved my studys on the
         University of Cuyo and i run to my own home, paing the rent starting to
         work on gastronomic business
       </p>

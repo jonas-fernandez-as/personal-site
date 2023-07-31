@@ -106,7 +106,7 @@ export default function About() {
     </div>
     </div>
     </div>
-    <h2><a href="https://drive.google.com/file/d/1xUoI2Ptis9eCTW8Sqe474hGvLs0-o9H7/view" target="_BLANK" rel="noreferrer">My Resume</a></h2>
+    <h2><a href="https://drive.google.com/file/d/17i_vAy99fMRrfQTrxfzF9_8tHzPbXErG/view?usp=drive_link" target="_BLANK" rel="noreferrer">My Resume</a></h2>
     <div className="to-home-container">
     <Link className="to-home" to="/">Home</Link>
     </div>
